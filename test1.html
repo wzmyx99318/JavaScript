@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="" type="text/css" href="">
+  <style type="text/css">
+	table {border-collapse:collapse;}/*边框单线条*/
+	table,th,td {border:10px ridge black;}
+	ul {list-style-type:none;}
+	* {margin:0;padding-left:2px;}
+	li {width:100px;}
+  </style>
+ </head>
+ <body onresize="imgResize();">
+  <h1><a id="t1">hello world</a></h1>
+  <br/>
+  <hr>
+  <p style="background-color:pink;text-align:justify;">
+  adfasdfas<br>dfads<br/>fasdddddddddddddaa<br>aadccccd
+  </p>
+  <img src="energy.png" width="50" height="50" border="0" alt="Energy">
+  <font size="5" color="red">222222</font>
+  <br>
+  <b>ddi<ins>il</ins>la<sub>2</sub></b>
+  <br>
+  <a href="www.baidu.com" target="_blank"><font size="5" color="red">baidu</font></a>
+  <br>
+  <a href="#" id="tips">tishi</a><br>
+  <table border="1" align="center" cellpadding="10">
+	<caption><strong>test table</strong></caption>
+	<tr>
+		<th>r1</th><th>r2</th>
+	</tr>
+	<tr>
+	<td align="center">eeeeee1</td><td>eeeeee2</td><td>eeeee3</td><td>eeee4</td>
+	</tr>
+	<tr>
+		<td colspan="40"></td>
+	</tr>
+	<tr>
+	<td>eeeeeeeeeee1</td><td>eeeeeeeeeee2</td>
+	</tr>
+  </table><br>
+  <div id="" class="">
+	  <ul>
+		<li style="border:2px dashed;border-radius:16px;text-align:center;">123</li>
+		<li style="background-color:#BBFFFF;border-left:6px solid #FF0000;text-align:center;">234</li>
+	  </ul>	
+  </div>
+  <div id="" class="" align="center">
+	 <img id="myimg" src="energy.png" alt="" onclick="change();">
+  </div>
+  <div id="" class="">
+	<form method="post" action="">
+		<input type="radio" name="s">用户名<input type="text" name="" class="" placeholder="请输入你的用户名"><br>
+		<input type="radio" name="s">密码<input type="password" name="" class="" placeholder="请输入你的密码"><br>
+		<input type="submit" name="" value="提交"><br>
+		<select name="">
+			<option value="" selected>请选择数据源
+			<option value="NASA">NASA
+			<option value="CSWD">CSWD
+		</select>
+	</form>
+  </div>
+  <br>
+  <div id="fushe" class="">
+	<iframe src="drawDownList.html" frameborder="1" scrolling="no" width="" height=""></iframe>
+  </div>
+  <p id="demo" style="border:solid 5px red;width:160px;text-align:center;">&copy123123123123</p><br>
+  <input type="button" value="来啊" onclick="myfunction()" style="width:170px;border-radius:16px;border:2px inset #00FFFF";>
+
+
+
+
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <a href="#t1">回到标题1</a>
+  <script type="text/javascript">
+	<!--
+	function myfunction()
+	{
+		document.getElementById("demo").innerHTML="Hello";
+		document.getElementById("demo").style.color="#0000FF";
+	}
+	function imgResize()
+	{
+		document.getElementById("myimg").src.height=(document.body.clientHeight-300)*0.1;
+	}
+	function change()
+	{
+		document.getElementById("myimg").src="wind.png";
+		setTimeout('document.getElementById("myimg").src="energy.png"',5*1000);
+	}
+	-->
+  </script>
+  
+ </body>
+</html>
